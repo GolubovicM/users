@@ -5,6 +5,9 @@
     include '../markup/header.php';
     $dbConnection = getConnection();
     print_r($dbConnection);
+
+
+    echo $userId;
 ?>
     <h1>Welcome</h1>
 
