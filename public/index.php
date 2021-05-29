@@ -1,13 +1,19 @@
 <?php
 
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
     include '../init.php';
 
     include '../markup/header.php';
     $dbConnection = getConnection();
     print_r($dbConnection);
+?>
+    <h1>Welcome</h1>
 
+
+        <form action="/search.php">
+            <label for="search">Search:</label><br>
+            <input type="text" id="search" name="search" ><br><br>
+            <input type="submit" value="Search">
+        </form>
+
+<?php
     include '../markup/footer.php';

@@ -4,12 +4,9 @@
         <meta charset="utf-8">
     </head>
     <body>
+        <a href="/index.php">Home</a> |
         <a href="/login.php">Login</a> |
         <a href="/register.php">Register</a>
+    <hr/>
+    <br/>
 
-
-        <form action="/search.php">
-            <label for="search">Search:</label><br>
-            <input type="text" id="search" name="search" ><br><br>
-            <input type="submit" value="Search">
-        </form>
